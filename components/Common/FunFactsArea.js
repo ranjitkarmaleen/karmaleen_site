@@ -16,8 +16,8 @@ const FunFactsArea = () => {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Continuously adding more into it </h2>
-            <div className="bar"></div>
+            <h2 className="mb-2">Continuously adding more into it </h2>
+            {/* <div className="bar"></div> */}
             <p>
               We believe in a quality-driven approach and continuously grow in our endeavor to deliver excellence.
             </p>

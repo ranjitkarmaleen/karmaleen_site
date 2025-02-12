@@ -59,7 +59,7 @@ const PartnerStyleTwo = () => {
             {technologies.map((tech, index) => (
               <div key={index} className="grid-item">
                 <img src={tech.src} alt={tech.alt} className="tech-logo" />
-                <h6 style={{ marginLeft: "8px" }}>{tech.alt}</h6>
+                <h6 style={{ marginLeft: "8px", marginBottom: '0px' }}>{tech.alt}</h6>
               </div>
             ))}
           </div>

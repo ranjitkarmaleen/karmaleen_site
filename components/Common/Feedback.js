@@ -7,7 +7,7 @@ import Image from "next/image";
 import shape1 from "/public/images/shape1.png";
 import shape2 from "/public/images/shape2.svg";
 import shape3 from "/public/images/shape3.svg";
-import shape4 from "/public/images/shape4.svg"; 
+import shape4 from "/public/images/shape4.svg";
 import shape5 from "/public/images/shape5.png";
 
 const NextArrow = (props) => {
@@ -115,8 +115,8 @@ class Feedback extends React.Component {
         <section className="feedback-area ptb-80 bg-f7fafd">
           <div className="container">
             <div className="section-title">
-              <h2>What users Saying</h2>
-              <div className="bar"></div>
+              <h2 className="mb-2">What users Saying</h2>
+              {/* <div className="bar"></div> */}
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -149,7 +149,7 @@ class Feedback extends React.Component {
           </div>
 
           {/* Shape Images */}
-          <div className="shape1">
+          {/* <div className="shape1">
             <Image
               src={shape1}
               alt="shape"
@@ -212,7 +212,7 @@ class Feedback extends React.Component {
               width={22}
               height={22}
             />
-          </div>
+          </div> */}
         </section>
       </>
     );
