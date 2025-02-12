@@ -16,11 +16,10 @@ const FunFactsArea = () => {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>We always try to understand users expectation</h2>
+            <h2>Continuously adding more into it </h2>
             <div className="bar"></div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We believe in a quality-driven approach and continuously grow in our endeavor to deliver excellence.
             </p>
           </div>
 
@@ -33,8 +32,8 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>180K</h3>
-                <p>Downloaded</p>
+                <h3>150+</h3>
+                <p>Projects</p>
               </div>
             </div>
 
@@ -46,8 +45,8 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>20K</h3>
-                <p>Feedback</p>
+                <h3>30+</h3>
+                <p>Developers</p>
               </div>
             </div>
 
@@ -59,8 +58,8 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>500+</h3>
-                <p>Workers</p>
+                <h3>6+</h3>
+                <p>Years of Experience</p>
               </div>
             </div>
 
@@ -72,13 +71,13 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>70+</h3>
-                <p>Contributors</p>
+                <h3>10+</h3>
+                <p>Countries server globally</p>
               </div>
             </div>
           </div>
 
-          <div
+          {/* <div
             className="contact-cta-box"
             data-aos="fade-up"
             data-aos-delay="500"
@@ -91,7 +90,7 @@ const FunFactsArea = () => {
             <Link href="/contact" className="btn btn-primary">
               Contact Us
             </Link>
-          </div>
+          </div> */}
 
           <div className="map-bg">
             <Image src={map} alt="map" width={910} height={443} />

@@ -69,7 +69,7 @@ a:hover, a:focus {
   color: #E04826;
 }
 .startp-nav nav .others-option .btn.btn-light {
-  border-color: #d6b4e7;
+  border-color: #E04826;
 }
 .startp-nav nav .others-option .btn.btn-light:hover, .startp-nav nav .others-option .btn.btn-light:focus {
   color: #ffffff;
@@ -79,11 +79,11 @@ a:hover, a:focus {
   background: #E04826;
 }
 .startp-nav nav .others-option .btn.btn-primary {
-  background: #f48665;
+  background: #E04826;
   box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
 }
 .startp-nav nav .others-option .btn.btn-primary::after, .startp-nav nav .others-option .btn.btn-primary::before {
-  background: #E04826;
+  background: #f48665;
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
 

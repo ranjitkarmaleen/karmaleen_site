@@ -11,14 +11,14 @@ const MainBanner = () => {
       <div className="iot-main-banner">
         <div className="container">
           <div className="iot-banner-content">
-            <span
+            {/* <span
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-duration="500"
               data-aos-once="true"
             >
               Internet of Things
-            </span>
+            </span> */}
 
             <h2
               data-aos="fade-up"
@@ -26,7 +26,7 @@ const MainBanner = () => {
               data-aos-duration="500"
               data-aos-once="true"
             >
-              We get it! IoT growth is happening
+              <span className="text-[#E04826] text-[40px]">Empowering</span> Businesses with Devoted <span className="text-[#E04826]">Karma.</span>
             </h2>
 
             <p
@@ -35,11 +35,10 @@ const MainBanner = () => {
               data-aos-duration="500"
               data-aos-once="true"
             >
-              At this point, it may seem like overkill to point out the
-              continued growth bound to happen in the Internet of Things space
-              for the years to come and how it will create new opportunities for
-              companies, both established and new, from a hardware and software
-              perspective.
+              KarmaLeen is built on the foundation of dedication, innovation,
+              and ethical service. Empowering businesses with devoted karma,
+              we blend technology with purpose to create impactful solutions
+              that drive growth and efficiency.
             </p>
 
             <Link

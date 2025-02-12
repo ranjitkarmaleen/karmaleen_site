@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
-                <Image src={logo} alt="logo" width={110} height={36} />
+                <Image src={logo} alt="logo" width={220} height={72} />
               </Link>
 
               <button
@@ -69,7 +69,7 @@ const Navbar = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="#"
                       onClick={(e) => e.preventDefault()}
@@ -83,9 +83,8 @@ const Navbar = () => {
                         <Link
                           href="/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/" && "active"
+                            }`}
                         >
                           IT Startup
                         </Link>
@@ -95,9 +94,8 @@ const Navbar = () => {
                         <Link
                           href="/it-startup-2/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/it-startup-2/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/it-startup-2/" && "active"
+                            }`}
                         >
                           IT Startup Two
                         </Link>
@@ -107,9 +105,8 @@ const Navbar = () => {
                         <Link
                           href="/iot/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/iot/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/iot/" && "active"
+                            }`}
                         >
                           IOT
                         </Link>
@@ -119,9 +116,8 @@ const Navbar = () => {
                         <Link
                           href="/hosting/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/hosting/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/hosting/" && "active"
+                            }`}
                         >
                           Hosting
                         </Link>
@@ -131,9 +127,8 @@ const Navbar = () => {
                         <Link
                           href="/machine-learning/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/machine-learning/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/machine-learning/" && "active"
+                            }`}
                         >
                           Machine Learning
                         </Link>
@@ -143,9 +138,8 @@ const Navbar = () => {
                         <Link
                           href="/machine-learning-2/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/machine-learning-2/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/machine-learning-2/" && "active"
+                            }`}
                         >
                           Machine Learning 2
                         </Link>
@@ -155,9 +149,8 @@ const Navbar = () => {
                         <Link
                           href="/bigdata-analytics/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/bigdata-analytics/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/bigdata-analytics/" && "active"
+                            }`}
                         >
                           Bigdata Analytics
                         </Link>
@@ -167,9 +160,8 @@ const Navbar = () => {
                         <Link
                           href="/digital-agency/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/digital-agency/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/digital-agency/" && "active"
+                            }`}
                         >
                           Digital Agency
                         </Link>
@@ -179,10 +171,9 @@ const Navbar = () => {
                         <Link
                           href="/digital-agency-portfolio/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/digital-agency-portfolio/" &&
+                          className={`nav-link ${currentPath == "/digital-agency-portfolio/" &&
                             "active"
-                          }`}
+                            }`}
                         >
                           Digital Agency Portfolio
                         </Link>
@@ -192,9 +183,8 @@ const Navbar = () => {
                         <Link
                           href="/pc-repair/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/pc-repair/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/pc-repair/" && "active"
+                            }`}
                         >
                           PC Repair
                         </Link>
@@ -216,9 +206,8 @@ const Navbar = () => {
                         <Link
                           href="/about/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/about/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/about/" && "active"
+                            }`}
                         >
                           About Style 1
                         </Link>
@@ -228,9 +217,8 @@ const Navbar = () => {
                         <Link
                           href="/about-2/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/about-2/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/about-2/" && "active"
+                            }`}
                         >
                           About Style 2
                         </Link>
@@ -240,9 +228,8 @@ const Navbar = () => {
                         <Link
                           href="/about-3/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/about-3/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/about-3/" && "active"
+                            }`}
                         >
                           About Style 3
                         </Link>
@@ -274,9 +261,8 @@ const Navbar = () => {
                             <Link
                               href="/features/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/features/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/features/" && "active"
+                                }`}
                             >
                               Features
                             </Link>
@@ -286,9 +272,8 @@ const Navbar = () => {
                             <Link
                               href="/features/feature-details/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/features/feature-details/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/features/feature-details/" && "active"
+                                }`}
                             >
                               Features Details
                             </Link>
@@ -310,9 +295,8 @@ const Navbar = () => {
                             <Link
                               href="/services/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/services/" && "active"
+                                }`}
                             >
                               Services Style 1
                             </Link>
@@ -322,9 +306,8 @@ const Navbar = () => {
                             <Link
                               href="/services-2/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services-2/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/services-2/" && "active"
+                                }`}
                             >
                               Services Style 2
                             </Link>
@@ -334,9 +317,8 @@ const Navbar = () => {
                             <Link
                               href="/services-3/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services-3/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/services-3/" && "active"
+                                }`}
                             >
                               Services Style 3
                             </Link>
@@ -346,9 +328,8 @@ const Navbar = () => {
                             <Link
                               href="/services-4/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services-4/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/services-4/" && "active"
+                                }`}
                             >
                               Services Style 4
                             </Link>
@@ -358,9 +339,8 @@ const Navbar = () => {
                             <Link
                               href="/services-5/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services-5/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/services-5/" && "active"
+                                }`}
                             >
                               Services Style 5
                             </Link>
@@ -370,9 +350,8 @@ const Navbar = () => {
                             <Link
                               href="/services/service-details/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services/service-details/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/services/service-details/" && "active"
+                                }`}
                             >
                               Services Details
                             </Link>
@@ -384,9 +363,8 @@ const Navbar = () => {
                         <Link
                           href="/feedback/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/feedback/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/feedback/" && "active"
+                            }`}
                         >
                           Feedback
                         </Link>
@@ -406,9 +384,8 @@ const Navbar = () => {
                             <Link
                               href="/projects/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/projects/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/projects/" && "active"
+                                }`}
                             >
                               Project Style 1
                             </Link>
@@ -418,9 +395,8 @@ const Navbar = () => {
                             <Link
                               href="/projects-2/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/projects-2/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/projects-2/" && "active"
+                                }`}
                             >
                               Project Style 2
                             </Link>
@@ -430,9 +406,8 @@ const Navbar = () => {
                             <Link
                               href="/projects/project-details/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/projects/project-details/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/projects/project-details/" && "active"
+                                }`}
                             >
                               Project Details
                             </Link>
@@ -444,9 +419,8 @@ const Navbar = () => {
                         <Link
                           href="/team/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/team/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/team/" && "active"
+                            }`}
                         >
                           Team
                         </Link>
@@ -456,9 +430,8 @@ const Navbar = () => {
                         <Link
                           href="/pricing/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/pricing/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/pricing/" && "active"
+                            }`}
                         >
                           Pricing
                         </Link>
@@ -478,9 +451,8 @@ const Navbar = () => {
                             <Link
                               href="/login/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/login/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/login/" && "active"
+                                }`}
                             >
                               Login
                             </Link>
@@ -490,9 +462,8 @@ const Navbar = () => {
                             <Link
                               href="/sign-up/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/sign-up/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/sign-up/" && "active"
+                                }`}
                             >
                               Sign Up
                             </Link>
@@ -502,9 +473,8 @@ const Navbar = () => {
                             <Link
                               href="/forgot-password/"
                               onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/forgot-password/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/forgot-password/" && "active"
+                                }`}
                             >
                               Forgot Password
                             </Link>
@@ -516,9 +486,8 @@ const Navbar = () => {
                         <Link
                           href="/faq/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/faq/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/faq/" && "active"
+                            }`}
                         >
                           FAQ's
                         </Link>
@@ -528,9 +497,8 @@ const Navbar = () => {
                         <Link
                           href="/coming-soon/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/coming-soon/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/coming-soon/" && "active"
+                            }`}
                         >
                           Coming Soon
                         </Link>
@@ -540,16 +508,15 @@ const Navbar = () => {
                         <Link
                           href="/404/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/404/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/404/" && "active"
+                            }`}
                         >
                           404 Error Page
                         </Link>
                       </li>
                     </ul>
-                  </li>
-
+                  </li> */}
+                  {/* 
                   <li className="nav-item">
                     <Link
                       href="#"
@@ -564,9 +531,8 @@ const Navbar = () => {
                         <Link
                           href="/shop/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/shop/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/shop/" && "active"
+                            }`}
                         >
                           Shop
                         </Link>
@@ -576,16 +542,15 @@ const Navbar = () => {
                         <Link
                           href="/checkout/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/checkout/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/checkout/" && "active"
+                            }`}
                         >
                           Checkout
                         </Link>
                       </li>
                     </ul>
-                  </li>
-
+                  </li> */}
+                  {/* 
                   <li className="nav-item">
                     <Link
                       href="#"
@@ -600,9 +565,8 @@ const Navbar = () => {
                         <Link
                           href="/blog/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog/" && "active"
+                            }`}
                         >
                           Blog Grid
                         </Link>
@@ -612,9 +576,8 @@ const Navbar = () => {
                         <Link
                           href="/blog-2/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog-2/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog-2/" && "active"
+                            }`}
                         >
                           Blog Right Sidebar
                         </Link>
@@ -624,9 +587,8 @@ const Navbar = () => {
                         <Link
                           href="/blog-3/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog-3/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog-3/" && "active"
+                            }`}
                         >
                           Blog Grid 2
                         </Link>
@@ -636,9 +598,8 @@ const Navbar = () => {
                         <Link
                           href="/blog-4/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog-4/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog-4/" && "active"
+                            }`}
                         >
                           Blog Right Sidebar 2
                         </Link>
@@ -648,9 +609,8 @@ const Navbar = () => {
                         <Link
                           href="/blog-5/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog-5/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog-5/" && "active"
+                            }`}
                         >
                           Blog Grid 3
                         </Link>
@@ -660,9 +620,8 @@ const Navbar = () => {
                         <Link
                           href="/blog-6/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog-6/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog-6/" && "active"
+                            }`}
                         >
                           Blog Right Sidebar 3
                         </Link>
@@ -672,25 +631,113 @@ const Navbar = () => {
                         <Link
                           href="/blog/blog-details/"
                           onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog/blog-details/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog/blog-details/" && "active"
+                            }`}
                         >
                           Blog Details
                         </Link>
                       </li>
                     </ul>
+                  </li> */}
+
+                  <li className="nav-item">
+                    <Link
+                      href="/home/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/home/" && "active"
+                        }`}
+                    >
+                      Home
+                    </Link>
                   </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/services/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/services/" && "active"
+                        }`}
+                    >
+                      Services
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/crm/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/crm/" && "active"
+                        }`}
+                    >
+                      CRM
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/industries/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/industries/" && "active"
+                        }`}
+                    >
+                      Industries
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/portfolio/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/portfolio/" && "active"
+                        }`}
+                    >
+                      Portfolio
+                    </Link>
+                  </li>
+
+
+                  <li className="nav-item">
+                    <Link
+                      href="/blog/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/blog/" && "active"
+                        }`}
+                    >
+                      Blog
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/about/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/about/" && "active"
+                        }`}
+                    >
+                      About
+                    </Link>
+                  </li>
+
 
                   <li className="nav-item">
                     <Link
                       href="/contact/"
                       onClick={toggleNavbar}
-                      className={`nav-link ${
-                        currentPath == "/contact/" && "active"
-                      }`}
+                      className={`nav-link ${currentPath == "/contact/" && "active"
+                        }`}
                     >
-                      Contact
+                      Contact US
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/case-study/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${currentPath == "/case-study/" && "active"
+                        }`}
+                    >
+                      Case Studies
                     </Link>
                   </li>
                 </ul>
@@ -698,17 +745,13 @@ const Navbar = () => {
 
               {/* Others option */}
               <div className="others-option">
-                <Link href="/cart/" className="cart-wrapper-btn">
-                  <Icon.ShoppingCart />
-                  <span>{cart.length}</span>
-                </Link>
 
-                <Link href="/contact/" className="btn btn-light">
-                  Support
-                </Link>
+                {/* <Link href="/contact/" className="btn btn-light ">
+                  Let's talk
+                </Link> */}
 
                 <Link href="/login/" className="btn btn-primary">
-                  Login
+                  Let's talk
                 </Link>
               </div>
             </nav>

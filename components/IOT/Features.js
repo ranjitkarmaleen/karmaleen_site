@@ -12,23 +12,18 @@ const Features = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 iot-features-content">
-              <h3>App Development for Connected Devices</h3>
+              <h3>Accelarate your product development by 3X</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus.
+                Supercharge your product development with AI and accelerate time-to-market by 3X.
+                Leverage automation, intelligent insights, and rapid iterations to build high-quality
+                solutions faster. Reduce development costs while enhancing efficiency and innovation.
+                Stay ahead of the competition with AI-driven workflows. Transform your ideas into reality
+                at lightning speed!
               </p>
 
-              <Link href="#" className="btn btn-primary">
+              {/* <Link href="#" className="btn btn-primary">
                 Explore More
-              </Link>
+              </Link> */}
             </div>
 
             <div
@@ -58,14 +53,15 @@ const Features = () => {
             </div>
 
             <div className="col-lg-6 iot-features-content">
-              <h3>How Can Your City Use IoT Technology?</h3>
+              <h3>Custom CRM development</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus.
+                Unlock the power of a tailored CRM designed to fit your unique business needs.
+                Automate workflows, streamline operations, and enhance customer interactions with a fully
+                customized solution. Integrate seamlessly with your existing tools for a unified experience.
+                Gain AI-driven insights to boost efficiency and drive growth. Empower your team with a CRM built for success!
+
               </p>
-              <p>
+              {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                 ipsum suspendisse ultrices gravida. Risus commodo viverra
@@ -74,7 +70,7 @@ const Features = () => {
 
               <Link href="#" className="btn btn-primary">
                 Explore More
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

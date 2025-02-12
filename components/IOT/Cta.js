@@ -20,17 +20,17 @@ const Cta = () => {
 
             <div className="col-lg-6">
               <div className="cta-iot-content">
-                <h3>Connect and Manage your IoT at Scale</h3>
+                <h3>Softare development technology</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  3T Principle: Building Success with Trust, Transparency, and Team Spirit.
+                </p>
+                <p>
+                  At Karmaleen, our 3T Motto—Trust, Transparency, and Team Spirit—drives everything we do. We build long-lasting relationships based on honesty, ensuring clear communication and mutual respect. With a strong collaborative spirit, we empower teams to innovate, grow, and succeed together.
                 </p>
 
-                <Link href="/contact" className="btn btn-primary">
+                {/* <Link href="/contact" className="btn btn-primary">
                   Get Started!
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
