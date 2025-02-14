@@ -3,16 +3,15 @@ import Navbar from '@/components/_App/Navbar'
 import PageBanner from '@/components/Common/PageBanner'
 import React from 'react'
 
-const Industries = () => {
+
+const MobileAppDevelopment = () => {
     return (
         <>
             <Navbar />
-
-            <PageBanner pageTitle="Industries" />
-
+            <PageBanner pageTitle="Mobile App Development" />
             <Footer />
         </>
     )
 }
 
-export default Industries
+export default MobileAppDevelopment

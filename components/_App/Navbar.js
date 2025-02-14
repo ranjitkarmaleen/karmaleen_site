@@ -658,8 +658,74 @@ const Navbar = () => {
                       className={`nav-link ${currentPath == "/services/" && "active"
                         }`}
                     >
-                      Services
+                      Services<Icon.ChevronDown />
                     </Link>
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/web-application-development/"
+                          onClick={toggleNavbar}
+                          className={`nav-link ${currentPath == "/web-application-development/" && "active"
+                            }`}
+                        >
+                          Web Application Development
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/mobile-app-development/"
+                          onClick={toggleNavbar}
+                          className={`nav-link ${currentPath == "/mobile-app-development/" && "active"
+                            }`}
+                        >
+                          Mobile App development
+                        </Link>
+                      </li>
+
+
+                      <li className="nav-item">
+                        <Link
+                          href="/crm-development/"
+                          onClick={toggleNavbar}
+                          className={`nav-link ${currentPath == "/crm-development/" && "active"
+                            }`}
+                        >
+                          CRM development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/team-hiring/"
+                          onClick={toggleNavbar}
+                          className={`nav-link ${currentPath == "/team-hiring/" && "active"
+                            }`}
+                        >
+                          Team hiring
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/hiring-developer/"
+                          onClick={toggleNavbar}
+                          className={`nav-link ${currentPath == "/hiring-developer/" && "active"
+                            }`}
+                        >
+                          Hiring dedicated developer
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/testing-qa/"
+                          onClick={toggleNavbar}
+                          className={`nav-link ${currentPath == "/testing-qa/" && "active"
+                            }`}
+                        >
+                          Testing and QA
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
 
                   <li className="nav-item">

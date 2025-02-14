@@ -1,18 +1,16 @@
+import React from 'react'
 import Footer from '@/components/_App/Footer'
 import Navbar from '@/components/_App/Navbar'
 import PageBanner from '@/components/Common/PageBanner'
-import React from 'react'
 
-const Industries = () => {
+const HiringDeveloper = () => {
     return (
         <>
             <Navbar />
-
-            <PageBanner pageTitle="Industries" />
-
+            <PageBanner pageTitle="Hiring Developer" />
             <Footer />
         </>
     )
 }
 
-export default Industries
+export default HiringDeveloper

@@ -50,16 +50,16 @@ const Footer = () => {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/services">Portfolio</Link>
+                    <Link href="/portfolio">Portfolio</Link>
                   </li>
                   <li>
                     <Link href="/features">Blog</Link>
                   </li>
                   <li>
-                    <Link href="/pricing">Contact Us</Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/blog">Case Studies</Link>
+                    <Link href="/case-studies">Case Studies</Link>
                   </li>
                 </ul>
               </div>
@@ -77,22 +77,22 @@ const Footer = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="/faq">Web Application Development</Link>
+                    <Link href="/web-application-development">Web Application Development</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Mobile App development</Link>
+                    <Link href="/mobile-app-development">Mobile App development</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">CRM development</Link>
+                    <Link href="/crm-development">CRM development</Link>
                   </li>
                   <li>
-                    <Link href="/team">Team hiring</Link>
+                    <Link href="/team-hiring">Team hiring</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Hiring dedicated developer</Link>
+                    <Link href="/hiring-developer">Hiring dedicated developer</Link>
                   </li>
                   <li>
-                    <Link href="/contact"> Testing and QA</Link>
+                    <Link href="/testing-qa"> Testing and QA</Link>
                   </li>
                 </ul>
               </div>

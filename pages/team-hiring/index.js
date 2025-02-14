@@ -3,16 +3,15 @@ import Navbar from '@/components/_App/Navbar'
 import PageBanner from '@/components/Common/PageBanner'
 import React from 'react'
 
-const Industries = () => {
+
+const TeamHiring = () => {
     return (
         <>
             <Navbar />
-
-            <PageBanner pageTitle="Industries" />
-
+            <PageBanner pageTitle="Team Hiring" />
             <Footer />
         </>
     )
 }
 
-export default Industries
+export default TeamHiring
