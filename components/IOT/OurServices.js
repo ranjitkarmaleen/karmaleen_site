@@ -263,7 +263,7 @@ const OurServices = () => {
                   Team hiring
                 </h3>
                 <p>
-                  Grow your team with confidence, knowing each hire is backed by a secure and scalable process.
+                  Grow your team with confidence, knowing each hire is backed by secure and scalable process.
                 </p>
 
               </div>

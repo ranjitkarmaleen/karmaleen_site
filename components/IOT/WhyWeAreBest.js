@@ -13,11 +13,10 @@ const WhyWeAreBest = () => {
       <div className="iot-why-choose-us pt-80">
         <div className="container">
           <div className="section-title">
-            <h2>Why We Are Best From Others</h2>
-            <div className="bar"></div>
+            <h2 className="mb-2">Trusted by Start up, SME's and Enterprise</h2>
+            {/* <div className="bar"></div> */}
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Trusted by startups, SMEs, and enterprises worldwide, we deliver scalable and innovative solutions tailored to your business needs. From agile startups to established enterprises, our expertise ensures seamless growth and efficiency. Leverage our custom solutions to automate, optimize, and scale with confidence. Partner with us for cutting-edge technology and proven results. Your success is our priority!
             </p>
           </div>
 
@@ -28,7 +27,7 @@ const WhyWeAreBest = () => {
               data-aos-delay="100"
               data-aos-duration="500"
             >
-              <div className="single-iot-box">
+              <div className="single-iot-box h-100">
                 <div className="icon">
                   <Image
                     src={icon1}
@@ -37,14 +36,13 @@ const WhyWeAreBest = () => {
                     height={60}
                   />
                 </div>
-                <h3>Digital Technology</h3>
+                <h3>Startups</h3>
                 <p>
-                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                  tempor incididunt ut labore dolore magna aliqua.
+                  Launch faster with agile, scalable solutions tailored for rapid growth.
                 </p>
-                <Link href="/services/service-details/">
+                {/* <Link href="/services/service-details/">
                   <Icon.ArrowRight />
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -54,7 +52,7 @@ const WhyWeAreBest = () => {
               data-aos-delay="200"
               data-aos-duration="500"
             >
-              <div className="single-iot-box">
+              <div className="single-iot-box h-100">
                 <div className="icon">
                   <Image
                     src={icon2}
@@ -63,14 +61,13 @@ const WhyWeAreBest = () => {
                     height={60}
                   />
                 </div>
-                <h3>Business Protection</h3>
+                <h3>SMEs</h3>
                 <p>
-                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                  tempor incididunt ut labore dolore magna aliqua.
+                  Optimize operations and scale efficiently with custom automation and CRM solutions.
                 </p>
-                <Link href="/services/service-details/">
+                {/* <Link href="/services/service-details/">
                   <Icon.ArrowRight />
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -80,7 +77,7 @@ const WhyWeAreBest = () => {
               data-aos-delay="300"
               data-aos-duration="500"
             >
-              <div className="single-iot-box">
+              <div className="single-iot-box h-100">
                 <div className="icon">
                   <Image
                     src={icon3}
@@ -89,14 +86,13 @@ const WhyWeAreBest = () => {
                     height={60}
                   />
                 </div>
-                <h3>Data Analysis</h3>
+                <h3>Enterprise</h3>
                 <p>
-                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                  tempor incididunt ut labore dolore magna aliqua.
+                  Power your business with robust, AI-driven solutions designed for performance and security.
                 </p>
-                <Link href="/services/service-details/">
+                {/* <Link href="/services/service-details/">
                   <Icon.ArrowRight />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

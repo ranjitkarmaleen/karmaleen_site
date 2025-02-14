@@ -642,9 +642,9 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/home/"
+                      href="/"
                       onClick={toggleNavbar}
-                      className={`nav-link ${currentPath == "/home/" && "active"
+                      className={`nav-link ${currentPath == "/" && "active"
                         }`}
                     >
                       Home
@@ -726,15 +726,15 @@ const Navbar = () => {
                       className={`nav-link ${currentPath == "/contact/" && "active"
                         }`}
                     >
-                      Contact US
+                      Contact Us
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      href="/case-study/"
+                      href="/case-studies/"
                       onClick={toggleNavbar}
-                      className={`nav-link ${currentPath == "/case-study/" && "active"
+                      className={`nav-link ${currentPath == "/case-studies/" && "active"
                         }`}
                     >
                       Case Studies

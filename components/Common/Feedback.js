@@ -221,53 +221,54 @@ class Feedback extends React.Component {
 
 const DEFAULT_PROPS = [
   {
-    name: "David Gale",
-    profession: "Web Developer",
+    name: "Sanjay Dalal - USA",
+    // profession: "Web Developer",
     image: "/images/client-image/client2.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "We hired KarmaLeen for Android app development for Coligso TextIn.Their team quickly learnt about the point of sale platform where app was to be released and helped us develop the app very quickly.They provided all instructions to configure, test(using point of sale emulator) and validate the app.Their dedication to the project and  support stood out.We plan to reach out to them for any Android/ iOS app development work in future.",
   },
   {
-    name: "Matt Damon",
-    profession: "Software Engineer",
-    image: "/images/client-image/client4.jpg",
-    content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "Nicky Parsons",
+    name: "Priyanka Makwan - USA",
     profession: "Fictional Character",
     image: "/images/client-image/client1.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "With KarmaLeen Technology we have outsourced a couple of our projects, especially for Mobile Application development.They are experts in providing a Material Design touch to the application. One thing l likes about their team is they are very honest and deliver everything on time, Other thing I like most is they are very co- operative.They understand requirement might change but they completely understand and co-operate on it.",
   },
   {
-    name: "Jason Momoa",
+    name: "Carlos Cielo - Maxico",
+    profession: "Software Engineer",
+    image: "/images/client-image/client4.jpg",
+    content:
+      "Excellent developers, always respectful and very professional. They helped us with a couple of apps for our startup and we are really grateful for that.",
+  },
+
+  {
+    name: "Rashi Arora - USA ",
     profession: "American Actor",
     image: "/images/client-image/client5.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      ". With KarmaLeen technology we have 2 years of long working relationship, We have strated our Pet Application from Scrap with his team. Team actively participate in requirment analysis and give thoughtfull queries and its solutions.I am highly recommended KarmaLeen for product development, Especially Mobile and Web Application development.",
   },
   {
-    name: "Gennady Korotkevich",
+    name: "Techy Geeks - India",
     profession: "Sport Programmer",
     image: "/images/client-image/client3.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Their project management demonstrated strong organization and responsiveness.",
   },
   {
-    name: "Petr Mitrichev",
+    name: "Harshil Malvi - India",
     profession: "Russian Programmer",
     image: "/images/client-image/client3.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I had the pleasure of working with KarmaLeen and I must say, it was an outstanding experience from start to finish. The team is highly professional, knowledgeable, and genuinely dedicated to delivering top-notch results. Highly recommended.",
   },
   {
     name: "Reid W. Barton",
     profession: "Mathematics",
     image: "/images/client-image/client2.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I strongly recommend KarmaLeen for app building. They did a wonderful job on ours. We are very happy with the workmanship! Their knowledge, direction and ability to bring our ideas to reality was remarkable.   ",
   },
   {
     name: "Lisa Sauermann",

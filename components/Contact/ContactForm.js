@@ -7,7 +7,7 @@ import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
 
-import contactImg from "/public/images/contact-img.png";
+import contactImg from "/public/images/contact_us_pic.png";
 
 const alertContent = () => {
   MySwal.fire({
@@ -59,7 +59,7 @@ const ContactForm = () => {
         <div className="container">
           <div className="section-title">
             <h2>Get In Touch With Us</h2>
-            <div className="bar"></div>
+            {/* <div className="bar"></div> */}
             <p>Anything On your Mind. We’ll Be Glad To Assist You!</p>
           </div>
 

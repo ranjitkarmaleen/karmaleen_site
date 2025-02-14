@@ -859,15 +859,15 @@
     transform: unset;
     margin-top: 50px;
   }
-  .iot-banner-image img:first-child {
+  /* .iot-banner-image img:first-child {
     max-width: 100%;
   }
   .iot-banner-image img:last-child {
     display: none;
-  }
+  } */
   .animate-border span {
-    top: 78%;
-    left: 41%;
+    top: 60%;
+    left: 45%;
   }
   .single-iot-services {
     padding: 30px 20px;
@@ -2507,7 +2507,7 @@
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
   .iot-banner-image {
-    right: 90px;
+    right: 230px;
     top: 56%;
     transform: translateY(-50%);
   }

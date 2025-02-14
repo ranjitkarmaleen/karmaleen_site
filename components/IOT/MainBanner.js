@@ -2,8 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import bannerImg from "/public/images/iot-banner-image/iot-main-img1.png";
+// import bannerImg from "/public/images/iot-banner-image/iot-main-img1.png";
 import iotShape1 from "/public/images/iot-banner-image/iot-shape1.png";
+// import bannerImg from "/public/images/features-details-image/feature1.png";
+import bannerImg from "/public/images/tech-image.png";
 
 const MainBanner = () => {
   return (
@@ -54,7 +56,7 @@ const MainBanner = () => {
           </div>
 
           <div className="iot-banner-image">
-            <Image
+            {/* <Image
               src={bannerImg}
               className="animate__animated animate__fadeInUp animate__delay-0.8s"
               alt="image"
@@ -68,6 +70,14 @@ const MainBanner = () => {
               alt="image"
               width={247}
               height={247}
+            /> */}
+
+            <Image
+              src={bannerImg}
+              className="animate__animated animate__fadeInUp animate__delay-0.8s"
+              alt="image"
+              width={650}
+              height={400}
             />
           </div>
 

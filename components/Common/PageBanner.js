@@ -21,7 +21,7 @@ const PageBanner = ({ pageTitle }) => {
         </div>
 
         {/* Shape Images */}
-        <div className="shape1">
+        {/* <div className="shape1">
           <Image src={shape1} alt="shape" width={202} height={202} />
         </div>
         <div className="shape2 rotateme">
@@ -44,7 +44,7 @@ const PageBanner = ({ pageTitle }) => {
         </div>
         <div className="shape8 rotateme">
           <Image src={shape2} alt="shape" width={22} height={22} />
-        </div>
+        </div> */}
       </div>
     </>
   );

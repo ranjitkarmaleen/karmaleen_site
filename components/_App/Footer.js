@@ -23,15 +23,15 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <div className="logo">
                   <Link href="/">
-                    <Image src={logo} alt="logo" width={110} height={36} />
+                    <Image src={logo} alt="logo" width={220} height={72} />
                   </Link>
                 </div>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi.
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -50,16 +50,16 @@ const Footer = () => {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/services">Services</Link>
+                    <Link href="/services">Portfolio</Link>
                   </li>
                   <li>
-                    <Link href="/features">Features</Link>
+                    <Link href="/features">Blog</Link>
                   </li>
                   <li>
-                    <Link href="/pricing">Our Pricing</Link>
+                    <Link href="/pricing">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/blog">Latest News</Link>
+                    <Link href="/blog">Case Studies</Link>
                   </li>
                 </ul>
               </div>
@@ -73,23 +73,26 @@ const Footer = () => {
               data-aos-once="true"
             >
               <div className="single-footer-widget">
-                <h3>Support</h3>
+                <h3>Services</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/faq">FAQ's</Link>
+                    <Link href="/faq">Web Application Development</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href="/privacy-policy">Mobile App development</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">Terms & Conditions</Link>
+                    <Link href="/terms-conditions">CRM development</Link>
                   </li>
                   <li>
-                    <Link href="/team">Team</Link>
+                    <Link href="/team">Team hiring</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact">Hiring dedicated developer</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact"> Testing and QA</Link>
                   </li>
                 </ul>
               </div>
@@ -108,18 +111,18 @@ const Footer = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <Icon.MapPin />
-                    27 Division St, New York, <br /> NY 10002, USA
+                    709 Dream Rise, Opp The Capital, Science City Road, <br />   Sola, Ahmedabad-380060.
                   </li>
 
                   <li>
                     <Icon.Mail />
                     Email:{" "}
-                    <a href="mailto:startp@gmail.com">startp@gmail.com</a>
+                    <a href="mailto:hello@karmaleen.com">hello@karmaleen.com</a>
                   </li>
 
                   <li>
                     <Icon.PhoneCall />
-                    Phone: <a href="tel:321984754">+ (321) 984 754</a>
+                    Phone: <a href="tel:9510612822">+91 9510-612-822</a>
                   </li>
                 </ul>
 
@@ -170,10 +173,7 @@ const Footer = () => {
             <div className="col-lg-12 col-md-12">
               <div className="copyright-area">
                 <p>
-                  Copyright &copy; {currentYear} StartP. All rights reserved by{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
-                  </a>
+                  Copyright &copy; {currentYear}  Karmaleen Technology
                 </p>
               </div>
             </div>
@@ -189,19 +189,19 @@ const Footer = () => {
         />
 
         {/* Shape Images */}
-        <div className="shape1">
+        {/* <div className="shape1">
           <Image
             src="/images/shape1.png"
             alt="shape"
             width={202}
             height={202}
           />
-        </div>
+        </div> */}
 
-        <div className="shape8 rotateme">
+        {/* <div className="shape8 rotateme">
           <Image src="/images/shape2.svg" alt="shape" width={22} height={22} />
-        </div>
-      </footer> 
+        </div> */}
+      </footer>
     </>
   );
 };
