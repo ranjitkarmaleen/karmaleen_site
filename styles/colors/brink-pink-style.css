@@ -7,16 +7,16 @@ a:hover, a:focus {
   box-shadow: 0 13px 27px 0 rgba(244, 134, 101, 0.25);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+  box-shadow: 0 13px 27px 0 rgba(248, 159, 82, 0.25);
 }
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary .show > .btn-primary.dropdown-toggle {
-  box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+  box-shadow: 0 13px 27px 0 rgba(239, 142, 31, 0.25);
 }
 .btn-primary.disabled, .btn-primary:disabled {
-  box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+  box-shadow: 0 13px 27px 0 rgba(242, 140, 30, 0.774);
 }
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary:disabled:hover, .btn-primary:disabled:focus {
-  box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+  box-shadow: 0 13px 27px 0 rgba(249, 155, 47, 0.25);
 }
 
 .btn::after, .btn::before {

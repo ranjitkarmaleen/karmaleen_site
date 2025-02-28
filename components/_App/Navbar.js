@@ -653,7 +653,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/services/"
+                      href="#"
                       onClick={toggleNavbar}
                       className={`nav-link ${currentPath == "/services/" && "active"
                         }`}
@@ -739,7 +739,7 @@ const Navbar = () => {
                     </Link>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/industries/"
                       onClick={toggleNavbar}
@@ -748,7 +748,7 @@ const Navbar = () => {
                     >
                       Industries
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <Link

@@ -1,27 +1,25 @@
 import React from "react";
 import Navbar from "@/components/_App/Navbar";
-import Team from "@/components/Common/Team";
 import FunFactsArea from "@/components/Common/FunFactsArea";
-import Partner from "@/components/Common/Partner";
 import Footer from "@/components/_App/Footer";
-import PageBanner from "@/components/Common/PageBanner";
 import AboutUsContent1 from "@/components/AboutUs/AboutUsContent1";
+import AboutMission from "@/components/AboutUs/AboutMission";
+import AboutBanner from "@/components/AboutUs/AboutBanner";
+import OurServices from "@/components/IOT/OurServices";
+import ReviweSection from "@/components/Common/ReviweSection";
+import ContactQuery from "@/components/IOT/ContactQuery";
 
 const About = () => {
   return (
     <>
       <Navbar />
-
-      <PageBanner pageTitle="About Us" />
-
+      <AboutBanner />
       <AboutUsContent1 />
-
-      <Team />
-
-      <Partner />
-
       <FunFactsArea />
-
+      <AboutMission />
+      <OurServices />
+      <ReviweSection />
+      <ContactQuery />
       <Footer />
     </>
   );
