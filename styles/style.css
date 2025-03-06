@@ -444,6 +444,17 @@ Navbar CSS
   transition: 0.3s;
   padding-top: 15px;
 }
+
+#header.headroomv {
+  position: fixed;
+  width: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  transition: 0.3s;
+  padding-top: 15px;
+}
 #header.headroom.is-sticky {
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   background-color: #ffffff !important;
@@ -9283,6 +9294,7 @@ Go Top CSS
 /* When modal opens */
 .contact-modal-overlay.open {
     transform: translateX(0);
+    z-index: 9999;
 }
 
 /* Modal Content */

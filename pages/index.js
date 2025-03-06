@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/IOT/MainBanner";
 import PartnerStyleTwo from "@/components/Common/PartnerStyleTwo";
@@ -12,11 +12,13 @@ import ContactQuery from "@/components/IOT/ContactQuery";
 import ReviweSection from "@/components/Common/ReviweSection";
 
 const Index = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <>
-      <Navbar />
+      <Navbar isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
 
-      <MainBanner />
+      <MainBanner isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
 
       <PartnerStyleTwo />
 

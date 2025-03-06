@@ -6,8 +6,9 @@ import * as Icon from "react-feather";
 import { useSelector } from "react-redux";
 
 import logo from "/public/images/logo.png";
+import ContactModal from "../ServicesComponents/ContactModal";
 
-const Navbar = () => {
+const Navbar = ({ isOpen, onClose }) => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
@@ -61,7 +62,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header id="header" className="headroom">
+      <header id="header" className={`${isOpen ? 'headroomv' : 'headroom'}`}>
         <div className="startp-nav">
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
@@ -266,14 +267,16 @@ const Navbar = () => {
                   Let's talk
                 </Link> */}
 
-                <Link href="/contact/" className="btn btn-primary">
+                <button onClick={() => onClose(true)} className="btn btn-primary">
                   Let's talk
-                </Link>
+                </button>
               </div>
             </nav>
           </div>
         </div>
       </header>
+      {/* Contact Modal */}
+      <ContactModal isOpen={isOpen} onClose={() => onClose(false)} />
     </>
   );
 };

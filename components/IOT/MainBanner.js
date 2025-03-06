@@ -4,8 +4,7 @@ import bannerImg from "/public/images/tech-image.png";
 import ContactModal from "../ServicesComponents/ContactModal";
 import Link from "next/link";
 
-const MainBanner = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+const MainBanner = ({ isOpen, onClose }) => {
 
   return (
     <>
@@ -42,7 +41,7 @@ const MainBanner = () => {
               that drive growth and efficiency.
             </p>
 
-            <Link
+            {/* <Link
               href="/contact"
               className="btn btn-primary"
               data-aos="fade-up"
@@ -51,18 +50,18 @@ const MainBanner = () => {
               data-aos-once="true"
             >
               Get Started
-            </Link>
+            </Link> */}
 
-            {/* <button
+            <button
               className="btn btn-primary"
-              onClick={() => setIsModalOpen(true)}
+              onClick={() => onClose(true)}
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="500"
               data-aos-once="true"
             >
               Get Started
-            </button> */}
+            </button>
           </div>
 
           <div className="iot-banner-image">
@@ -99,7 +98,7 @@ const MainBanner = () => {
           </div>
         </div>
         {/* Contact Modal */}
-        {/* <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} /> */}
+        <ContactModal isOpen={isOpen} onClose={() => onClose(false)} />
       </div>
     </>
   );
