@@ -5,7 +5,7 @@ const ContactModal = ({ isOpen, onClose }) => {
         <div className={`contact-modal-overlay ${isOpen ? "open" : ""}`}>
             <div className="contact-modal-content">
                 <button className="contact-modal-close-btn" onClick={onClose}>✕</button>
-                <div style={{ width: "50%", margin: "0 auto", paddingTop: "120px" }}>
+                <div className="contact-modal-box" >
                     <h2 className="contact-modal-title">
                         Get In <span className="contact-modal-highlight">Touch</span>
                     </h2>
@@ -19,9 +19,12 @@ const ContactModal = ({ isOpen, onClose }) => {
                             <input type="text" placeholder="Contact No*" required />
                             <select required>
                                 <option value="">Select Your Service</option>
-                                <option value="Web Development">Web Development</option>
-                                <option value="App Development">App Development</option>
-                                <option value="SEO Services">SEO Services</option>
+                                <option value="Web Application Development">Web Application Development</option>
+                                <option value="Mobile App development">Mobile App development</option>
+                                <option value=" CRM development"> CRM development</option>
+                                <option value="Team hiring">Team hiring</option>
+                                <option value="Hiring dedicated developer">Hiring dedicated developer</option>
+                                <option value="Testing and QA">Testing and QA</option>
                             </select>
                         </div>
                         <textarea placeholder="How can we help?*" rows="4" required></textarea>

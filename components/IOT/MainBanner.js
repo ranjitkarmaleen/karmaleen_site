@@ -1,13 +1,12 @@
-import React from "react";
-import Link from "next/link";
+import React, { useState } from "react";
 import Image from "next/image";
-
-// import bannerImg from "/public/images/iot-banner-image/iot-main-img1.png";
-import iotShape1 from "/public/images/iot-banner-image/iot-shape1.png";
-// import bannerImg from "/public/images/features-details-image/feature1.png";
 import bannerImg from "/public/images/tech-image.png";
+import ContactModal from "../ServicesComponents/ContactModal";
+import Link from "next/link";
 
 const MainBanner = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <>
       <div className="iot-main-banner">
@@ -28,7 +27,7 @@ const MainBanner = () => {
               data-aos-duration="500"
               data-aos-once="true"
             >
-              <span className="text-[#E04826] text-[40px]">Empowering</span> Businesses with Devoted <span className="text-[#E04826]">Karma.</span>
+              <span className="text-[#E04826]" style={{ fontSize: "28px" }}>Empowering</span> Businesses with Devoted <span className="text-[#E04826]" style={{ fontSize: "28px" }}>Karma.</span>
             </h2>
 
             <p
@@ -53,6 +52,17 @@ const MainBanner = () => {
             >
               Get Started
             </Link>
+
+            {/* <button
+              className="btn btn-primary"
+              onClick={() => setIsModalOpen(true)}
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              Get Started
+            </button> */}
           </div>
 
           <div className="iot-banner-image">
@@ -88,6 +98,8 @@ const MainBanner = () => {
             <span></span>
           </div>
         </div>
+        {/* Contact Modal */}
+        {/* <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} /> */}
       </div>
     </>
   );

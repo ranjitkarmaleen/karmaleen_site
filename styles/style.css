@@ -3596,7 +3596,7 @@ Blog CSS
 }
 .single-blog-post-item .post-content {
   transition: 0.5s;
-  background: linear-gradient(to right top, #d5fefd, #e0fdff, #effbff, #fbfaff, #fffcff);
+  background: linear-gradient(to right top, #f59732, #f7b852, #fbcd90, #fffdfc, #fffdfc);
   position: relative;
   border-radius: 5px;
   padding: 30px 25px;
@@ -6013,9 +6013,7 @@ Repair Partner CSS
   padding-top: 45px;
   padding-bottom: 45px;
 } */
-
 .repair-partner-area {
-  /* background-color: #f9fafb; */
   padding: 45px 0;
   text-align: center;
 }
@@ -6044,15 +6042,11 @@ Repair Partner CSS
 .grid-item {
   background: white;
   padding: 20px;
-  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
-  /* border-radius: 8px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  /* height: 150px; */
-  /* width: 150px; */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -6066,6 +6060,32 @@ Repair Partner CSS
   max-width: 100%;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .grid-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 15px;
+    padding-bottom: 20px; /* Add some padding to avoid cutting off content */
+  }
+
+  .grid-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    min-width: 150px; /* Adjust the minimum width of each item */
+    padding: 15px;
+  }
+
+  .grid-item:hover {
+    transform: none; /* Disable hover effect on mobile */
+    box-shadow: none;
+  }
+
+  .tech-logo {
+    max-height: 45px; /* Adjust logo size for mobile */
+  }
+}
 
 
 /*================================================
@@ -9290,7 +9310,11 @@ Go Top CSS
     right: 30px;
     color: white;
 }
-
+.contact-modal-box{
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
 /* Title */
 .contact-modal-title {
     font-size: 2.5rem;
@@ -9381,88 +9405,151 @@ Go Top CSS
         flex-direction: column;
         gap: 10px;
     }
+
+    .contact-modal-box{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 100px;
+      }
 }
 
-/* ======================================== */
+/* Blog Layout */
 .blog-container {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  gap: 40px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 30px;
 }
 
+/* Left Side - Blog Sections */
 .content-column {
-  flex: 2;
+    flex: 1;
 }
 
+/* Right Side - Sticky Navigation */
 .sticky-column {
-  flex: 1;
-  position: relative;
+    width: 300px;
+    position: sticky;
+    top: 120px;
+    height: fit-content;
 }
 
 .sticky-card {
-  position: sticky;
-  top: 180px;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .sticky-card h3 {
-  margin-bottom: 16px;
-  font-size: 1.5rem;
-  color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
 }
 
 .sticky-card ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .sticky-card ul li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .sticky-card ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1rem;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.sticky-card ul li a:hover {
+    color: #ff6600;
 }
 
 .sticky-card ul li.active a {
-  color: #0070f3;
-  /* font-weight: bold; */
+    color: #ff6600;
+    font-weight: bold;
 }
 
+/* Content Section Styling */
 .content-section {
-  margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .content-section h2 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.content-section h3 {
-  font-size: 1.5rem;
-  color: #333;
-  margin-top: 20px;
-  margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0e314c;
 }
 
 .content-section p {
-  line-height: 1.8;
-  color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0e314c;
 }
 
-.content-section ul {
-  margin-bottom: 20px;
-  padding-left: 20px;
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .blog-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px !important;
+    }
+
+    .sticky-column {
+        width: 100%;
+        position: static;
+    }
+
+    .sticky-card {
+        position: static;
+        margin-bottom: 30px;
+    }
+
+    .content-section h2 {
+        font-size: 24px;
+    }
+
+    .content-section p {
+        font-size: 14px;
+    }
 }
 
-.content-section ul li {
-  margin-bottom: 10px;
+@media (max-width: 600px) {
+    .content-wrapper {
+        padding: 20px 10px;
+    }
+
+    .text-content, .image-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .image-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-section h2 {
+        font-size: 22px;
+    }
+
+    .content-section p {
+        font-size: 14px;
+    }
+
+    .sticky-card h3 {
+        font-size: 18px;
+    }
+
+    .sticky-card ul li a {
+        font-size: 14px;
+    }
 }

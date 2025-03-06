@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ContactModal from '../ServicesComponents/ContactModal';
 
-const AboutBanner = () => {
+const CommonBanner = ({ title }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
@@ -17,8 +17,9 @@ const AboutBanner = () => {
                     flexDirection: "column"
                 }}>
                     <h1 style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#FFFFFF" }}>
-                        About <span style={{ color: "#E04826" }}>KarmaLeen Technology</span>
+                        {title}
                     </h1>
+                    {/* <span style={{ color: "#E04826" }}>KarmaLeen Technology</span> */}
                     <p className='mb-0' style={{
                         fontSize: "1.2rem",
                         color: "#FFFFFF",
@@ -39,4 +40,4 @@ const AboutBanner = () => {
     )
 }
 
-export default AboutBanner;
+export default CommonBanner

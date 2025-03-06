@@ -2,18 +2,7 @@ import React from "react";
 import * as Icon from "react-feather";
 import Link from "next/link";
 import Image from "next/image";
-
-import blogImg1 from "/public/images/blog-image/blog1.jpg";
-import blogImg2 from "/public/images/blog-image/blog2.jpg";
-import blogImg3 from "/public/images/blog-image/blog3.jpg";
-import blogImg4 from "/public/images/blog-image/blog4.jpg";
-import blogImg5 from "/public/images/blog-image/blog5.jpg";
-import blogImg6 from "/public/images/blog-image/blog6.jpg";
-
-// Shape Images
-import shape1 from "/public/images/shape1.png";
-import shape3 from "/public/images/shape3.svg";
-import shape4 from "/public/images/shape4.svg";
+import caseData from "./caseStudyData";
 
 const BlogGridPost3 = () => {
   return (
@@ -21,40 +10,43 @@ const BlogGridPost3 = () => {
       <div className="blog-area ptb-80">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post-item">
-                <div className="post-image">
-                  <Link href="/blog/blog-details/">
-                    <Image
-                      src={blogImg1}
-                      alt="image"
-                      width={860}
-                      height={700}
-                    />
-                  </Link>
-                </div>
-
-                <div className="post-content">
-                  <ul className="post-meta">
-                    <li>
-                      <Link href="#">Admin</Link>
-                    </li>
-                    <li>August 15, 2022</li>
-                  </ul>
-                  <h3>
-                    <Link href="/blog/blog-details/">
-                      The security risks of changing package owners
+            {caseData?.map((post) => (
+              <div className="col-lg-4 col-md-6">
+                <div className="single-blog-post-item">
+                  <div className="post-image">
+                    <Link href={`/case-studies/case-details/${post.id}`}>
+                      <Image
+                        src={post.image}
+                        alt="image"
+                        width={860}
+                        height={700}
+                      />
                     </Link>
-                  </h3>
+                  </div>
 
-                  <Link href="/blog/blog-details/" className="read-more-btn">
-                    Read More <Icon.PlusCircle />
-                  </Link>
+                  <div className="post-content">
+                    {/* <ul className="post-meta">
+                      <li>
+                        <Link href="#">Admin</Link>
+                      </li>
+                      <li>August 15, 2022</li>
+                    </ul> */}
+                    <h3>
+                      <Link href={`/case-studies/case-details/${post.id}`}>
+                        {post.title}
+                      </Link>
+                    </h3>
+
+                    <Link href={`/case-studies/case-details/${post.id}`} className="read-more-btn">
+                      Read More <Icon.PlusCircle />
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
 
-            <div className="col-lg-4 col-md-6">
+
+            {/* <div className="col-lg-4 col-md-6">
               <div className="single-blog-post-item">
                 <div className="post-image">
                   <Link href="/blog/blog-details/">
@@ -217,10 +209,10 @@ const BlogGridPost3 = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Pagination */}
-            <div className="col-lg-12 col-md-12">
+            {/* <div className="col-lg-12 col-md-12">
               <div className="pagination-area">
                 <nav aria-label="Page navigation">
                   <ul className="pagination justify-content-center">
@@ -256,12 +248,12 @@ const BlogGridPost3 = () => {
                   </ul>
                 </nav>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* Shape Images */}
-        <div className="shape2 rotateme">
+        {/* <div className="shape2 rotateme">
           <Image src={shape1} alt="shape" width={22} height={22} />
         </div>
         <div className="shape3">
@@ -278,7 +270,7 @@ const BlogGridPost3 = () => {
         </div>
         <div className="shape8 rotateme">
           <Image src={shape1} alt="shape" width={22} height={22} />
-        </div>
+        </div> */}
       </div>
     </>
   );

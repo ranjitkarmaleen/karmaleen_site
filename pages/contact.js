@@ -1,24 +1,23 @@
 import React from "react";
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
-import PageBanner from "@/components/Common/PageBanner";
 import ContactInfo from "@/components/Contact/ContactInfo";
-import GoogleMap from "@/components/Contact/GoogleMap";
 import ContactForm from "@/components/Contact/ContactForm";
+import CommonBanner from "@/components/Common/CommonBanner";
+import ReviweSection from "@/components/Common/ReviweSection";
+import OurServices from '@/components/IOT/OurServices'
+import ContactQuery from '@/components/IOT/ContactQuery'
 
 const Contact = () => {
   return (
     <>
       <Navbar />
-
-      <PageBanner pageTitle="Contact Us" />
-
+      <CommonBanner title="Contact Us" />
       <ContactInfo />
-
-      {/* <GoogleMap /> */}
-
       <ContactForm />
-
+      <OurServices />
+      <ReviweSection />
+      <ContactQuery />
       <Footer />
     </>
   );

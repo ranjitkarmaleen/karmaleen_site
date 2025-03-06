@@ -42,7 +42,7 @@ const WebDevProcess = () => {
         setOpenIndex(openIndex === index ? null : index);
     };
     const router = useRouter();
-    console.log(router.asPath)
+    // console.log(router.asPath)
 
     const name = router?.asPath == '/mobile-app-development/' ? 'Mobile Development' : 'Web Development'
     return (
