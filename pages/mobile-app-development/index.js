@@ -3,7 +3,7 @@ import Navbar from '@/components/_App/Navbar'
 import BannerForMobileApp from '@/components/ServicesComponents/BannerForMobileApp'
 import MobileServices from '@/components/ServicesComponents/MobileServices'
 import MobileServicesContent from '@/components/ServicesComponents/MobileServicesContent'
-import React from 'react'
+import React, { useState } from 'react'
 import CallToActionWeb from '@/components/ServicesComponents/CallToActionWeb'
 import WebDevProcess from '@/components/ServicesComponents/WebDevProcess'
 import ReviweSection from "@/components/Common/ReviweSection";
