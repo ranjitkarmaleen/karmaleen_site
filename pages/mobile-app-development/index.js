@@ -13,9 +13,11 @@ import MobileTechLogos from '@/components/ServicesComponents/MobileTechLogos'
 
 
 const MobileAppDevelopment = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <>
-            <Navbar />
+            <Navbar isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
             <BannerForMobileApp />
             <PartnerMobile />
             <MobileServicesContent />

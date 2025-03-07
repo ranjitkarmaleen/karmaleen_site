@@ -9,12 +9,15 @@ import WebServices from '@/components/ServicesComponents/WebServices'
 import WebTechLogos from '@/components/ServicesComponents/WebTechLogos'
 import ReviweSection from "@/components/Common/ReviweSection";
 import ContactForm from '@/components/Contact/ContactForm'
+import { useState } from 'react'
 
 const WebApplicationDevelopments = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
 
         <>
-            <Navbar />
+            <Navbar isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
             <Banner />
             <Partner />
             <ServiceContent />

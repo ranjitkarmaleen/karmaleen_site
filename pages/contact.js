@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import ContactInfo from "@/components/Contact/ContactInfo";
@@ -9,9 +9,11 @@ import OurServices from '@/components/IOT/OurServices'
 import ContactQuery from '@/components/IOT/ContactQuery'
 
 const Contact = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <>
-      <Navbar />
+      <Navbar isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
       <CommonBanner title="Contact Us" />
       <ContactInfo />
       <ContactForm />

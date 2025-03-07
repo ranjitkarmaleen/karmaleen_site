@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '@/components/_App/Footer'
 import Navbar from '@/components/_App/Navbar'
 import DeveloperHireBanner from '@/components/ServicesComponents/DeveloperHireBanner'
@@ -10,9 +10,11 @@ import CallToActionWeb from '@/components/ServicesComponents/CallToActionWeb'
 
 
 const HiringDeveloper = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <>
-            <Navbar />
+            <Navbar isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
             <DeveloperHireBanner />
             <Partner />
             <DeveloperServiceContent />

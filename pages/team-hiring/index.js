@@ -4,15 +4,17 @@ import ContactForm from '@/components/Contact/ContactForm'
 import Partner from '@/components/MachineLearning/Partner'
 import TeamHireBanner from '@/components/ServicesComponents/TeamHireBanner'
 import TeamServiceContent from '@/components/ServicesComponents/TeamServiceContent'
-import React from 'react'
+import React, { useState } from 'react'
 import ReviweSection from "@/components/Common/ReviweSection";
 import CallToActionWeb from '@/components/ServicesComponents/CallToActionWeb'
 
 
 const TeamHiring = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <>
-            <Navbar />
+            <Navbar isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
             <TeamHireBanner />
             <Partner />
             <TeamServiceContent />

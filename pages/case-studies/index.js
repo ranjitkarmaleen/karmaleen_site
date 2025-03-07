@@ -2,16 +2,17 @@ import Footer from '@/components/_App/Footer'
 import Navbar from '@/components/_App/Navbar'
 import BlogGridPost3 from '@/components/Blog/BlogGridPostStyle3'
 import CommonBanner from '@/components/Common/CommonBanner'
-import React from 'react'
+import React, { useState } from 'react'
 import ReviweSection from "@/components/Common/ReviweSection";
 import OurServices from '@/components/IOT/OurServices'
 import ContactQuery from '@/components/IOT/ContactQuery'
 
 
 const CaseStudies = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
     return (
         <>
-            <Navbar />
+            <Navbar isOpen={isModalOpen} onClose={(v) => setIsModalOpen(v)} />
 
             <CommonBanner title="Case Studies" />
 
