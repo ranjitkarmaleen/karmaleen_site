@@ -29,7 +29,7 @@ const ContactInfo = () => {
                 </div>
                 <h3>Visit Here</h3>
                 <p>
-                  709 Dream Rise, Opp The Capital, Science City Road, <br />   Sola, Ahmedabad-380060.
+                  706, 7th floor City Center 2, <br /> Near Heer Party Plot, Sukan Mall Cross Road, Science City Rd,<br />  Sola,Ahmedabad, Gujarat 38006
                 </p>
               </div>
             </div>
